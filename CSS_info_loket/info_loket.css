@@ -1,0 +1,48 @@
+.pilih-loket {
+  width: 299px;
+  height: 130px;
+  margin: 25px auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: last baseline;
+  background: white;
+  border: solid 1px lightslategray;
+}
+.isi {
+  margin-top: 1em;
+  font-size: 9px;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: white;
+}
+.nomor-user {
+  font-size: 20px;
+  margin-top: -1em;
+}
+.about-user {
+  transform: translateX(-289px);
+  white-space: nowrap;
+  text-align: justify;
+  font-size: 8px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+.about-user h6 {
+  font-weight: bolder;
+  color: #007bff;
+}
+.loket1 {
+  width: 200px;
+  height: 129px;
+  background: #007bff;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 205px;
+  white-space: nowrap;
+  text-align: justify;
+  transform: translateX(-8px);
+}

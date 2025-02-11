@@ -2124,7 +2124,7 @@ progress {
 .form-control:focus {
   color: #7e7e7e;
   background-color: #f7f7f7;
-  border-color: #b39ddb;
+  border-color: 0;
   outline: 0;
   box-shadow: 0 0 0 0rem rgba(103, 58, 183, 0.25);
 }
@@ -14576,7 +14576,7 @@ textarea {
 
 .input-group:focus-within .input-group-text,
 .input-group:focus-within .form-control {
-  border-color: var(--primary);
+  border-color: var(--secondary);
 }
 
 .input-group > :not(:first-child) {
@@ -19366,7 +19366,7 @@ ul.list-check li:after {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  padding-bottom: 10px;
+  padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 100%;

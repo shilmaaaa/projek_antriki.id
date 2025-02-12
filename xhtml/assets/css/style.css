@@ -18617,31 +18617,22 @@ button:focus {
   border-radius: var(--border-radius-base);
 }
 
-.pwa-offcanvas {
-  text-align: center;
-}
-.pwa-offcanvas .title {
-  margin-bottom: 10px;
-}
-.pwa-offcanvas .logo {
-  width: 80px;
-  margin: 0 auto 20px;
-  display: block;
-}
-.pwa-offcanvas p {
-  margin-bottom: 25px;
-}
-.pwa-offcanvas.show {
-  visibility: visible;
+.pwa-offcanvas,
+.pwa-backdrop {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
 
-.pwa-backdrop {
-  visibility: hidden;
-}
+.pwa-offcanvas.show,
 .pwa-backdrop.show {
-  visibility: visible;
-  transition: opacity 0.15s linear;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
+
 
 .error-page {
   display: block;
